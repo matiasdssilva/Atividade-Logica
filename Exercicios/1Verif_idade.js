@@ -138,4 +138,117 @@
 // else if (operacao == "/" ) {
 //     resultado = Numero1 / Numero2
 //     alert (`O resultado da divisão entre ${Numero1} e ${Numero2} é igual a ${resultado}`)
+
+// }
+
+
+// EXERCICIO 2
+// const Numero1 = Number(prompt("Digite o primeiro número"))
+// const Numero2 = Number(prompt("Digite o segundo número"))
+// const Numero3 = Number(prompt("Digite o terceiro número"))
+// if (Numero1 > Numero2 && Numero1 > Numero3)
+//     alert(`O Numero ${Numero1} é maior que o numero ${Numero2} e o ${Numero3}`)
+// if (Numero2 > Numero3 && Numero1 > Numero1)
+//     alert(`O Numero ${Numero2} é maior que o numero ${Numero3} e o ${Numero1}`)
+// else {
+//     alert (`O numero ${Numero3} é maior que o numero ${Numero2} e o ${Numero1}`)
+// }
+
+
+// EXERCICIO 3
+// const Numero1 = Number(prompt("Digite o valor da compra"))
+// const Numero2 = Number(prompt("DIgite o valor da compra"))
+// const Numero3 = Number(prompt("DIgite o valor da compra"))
+// let Total = Numero1 + Numero2 + Numero3
+// let Totaldesc
+// if (Total >= 100) {
+
+//     Totaldesc = (Total - 0.10 * Total)
+//     alert(`O valor total da compra foi ${Totaldesc}`)
+
+
+// }
+//  else {
+//         alert (`Você não recebeu desconto. O valor foi de ${Total}`)
+// }
+
+
+
+// EXERCICIO 4
+// const Nome = prompt("Digite o seu nome").toLowerCase()
+// const Senha = Number(prompt("Digite sua senha"))
+// if (Nome == "admin" && Senha == 1234)  {
+
+//     alert(`Login bem sucedido`)
+
+// }
+//      else {
+//         alert (`Acesso negado`)
+//      }
+
+
+
+// AVANÇADO
+
+// EXERCICIO 1
+// const Lado1 =Number(prompt("DIgite o primeiro lado"))
+// const Lado2 =Number(prompt("DIgite o segundo lado"))
+// const Lado3 =Number(prompt("DIgite o terceiro lado"))
+// if (Lado1 ==Lado2 && Lado1 ==Lado3){
+//     alert (`O triangulo é equilatero`)
+// }
+// else if (Lado2 ==Lado3 || Lado1 ==Lado3){
+//     alert (`O triangulo é isósceles`)
+// }
+// else {
+//     alert (`O triangulo é escaleno`)
+// }
+
+
+// EXERCICIO 2
+// const Nota =Number(prompt("Digite a sua nota"))
+// if (Nota >=90){
+//     alert (`Sua nota é A. Parabéns!!`)
+// }
+// else if (Nota >=80){
+// alert (`Sua nota é B.`)  }
+// else if (Nota >=70){
+//     alert (`Sua nota é C.`)
+// }
+// else if (Nota>=60){
+//     alert ("Sua nota é D.")
+// }
+// else if (Nota <60){
+//     alert ("Sua nota é F. Você precisa melhorar.")
+// }
+
+
+
+// EXERCICIO 3
+// const Peso = Number(prompt("Digite seu peso"))
+// const Altura = Number(prompt("Digite sua altura"))
+// let imc = Peso / (Altura * Altura)
+// if (imc < 18.5) {
+//     alert(`Baixo Peso`)
+// }
+// else if (imc >= 18.5 && imc <24.99) {
+//     alert(`Normal peso`)
+// }
+// else if (imc >= 25 && imc <29.99) {
+//     alert(`Sobrepeso`)
+// }
+
+// else{
+//     alert(`Obesidade`)
+// }
+
+
+
+// EXERCICIO 4
+// const Ano =Number(prompt("Digite o ano"))
+// if (Ano %4 ===0 && Ano %100)|| (Ano %400 ==0){
+//  alert (`O ano é bissexto`)
+// }
+// else{
+//     alert (`O ano não é bissexto`)
 // }
