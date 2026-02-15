@@ -245,10 +245,10 @@
 
 
 // EXERCICIO 4
-// const Ano =Number(prompt("Digite o ano"))
-// if (Ano %4 ===0 && Ano %100)|| (Ano %400 ==0){
-//  alert (`O ano é bissexto`)
-// }
-// else{
-//     alert (`O ano não é bissexto`)
-// }
+const Ano =Number(prompt("Digite o ano"))
+if ((Ano %4 ===0 && Ano %100)|| (Ano %400 ==0)){
+ alert (`O ano é bissexto`)
+}
+else {
+    alert (`O ano não é bissexto`)
+}
